@@ -1,189 +1,143 @@
 ---
+---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Adarsh Rouniyar
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Adarsh
+last_name: Rouniyar
 
-# Pronouns (optional)
-pronouns: she/her
-
-# Status emoji
+# Status emoji (shows under avatar)
 status:
-  icon: ☕️
+  icon: 🚀
 
-# Is this the primary user of the site?
+# Primary user of the site
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: AI/ML Engineer — NLP · RAG · Smart Contracts
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Whale Strategy Co., Ltd.
+    url: https://whalestrategy.net
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# Social profiles (add/remove as you like)
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: mailto:adarsh@csie.io
+    label: E-mail
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/darkblood784
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/adarsh-rouniyar-876b1419b/
+  - icon: link
+    url: https://wstaking.net
+    label: WStaking
 
+# Interests shown on the profile
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - NLP & LLMs (RAG, embeddings, evaluation)
+  - Production AI (APIs, Docker/K8s)
+  - Crypto systems (smart contracts, trading bots)
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.Sc., Computer Science & Information Engineering
+    institution: National Chung Cheng University (CCU), Taiwan
+    date_start: 2021-09-01
+    date_end: 2023-08-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      GPA 4.11/4.3. Thesis: *Performance-Based Model Aggregation in Federated Learning for Image-Based AQI Classification*.
+  - area: B.Tech., Computer Science & Engineering
+    institution: Vel Tech University, India
+    date_start: 2017-01-01
+    date_end: 2021-01-01
     summary: |
-      GPA: 3.8/4.0
+      CGPA 8.3/10.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# Work experience
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Chief Technology Officer & AI Software Engineer
+    company_name: Whale Strategy Co., Ltd.
+    company_url: https://whalestrategy.net
     company_logo: ''
-    date_start: 2021-01-01
+    location: Kaohsiung, Taiwan
+    date_start: 2024-04-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Built the company site (WordPress) and internal tooling.
+      - Wrote and verified smart contracts on X Layer and BSC powering a staking platform (234K+ USDT staked).
+      - Defined a lightweight AI services catalog; exposed LLM features as REST APIs (FastAPI), packaged with Docker.
+      - Implemented RAG pipelines (embeddings, vector store, prompt orchestration).
+      - Built Python trading bots with OKX API & TradingView; added ML for forecasting and anomaly detection.
+      - Set delivery practices (reviews, CI/CD) and mentored interns/junior engineers.
+  - position: AI Research Assistant & Project Assistant
+    company_name: National Chung Cheng University (CCU)
+    company_url: https://www.ccu.edu.tw
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    location: Minxiong & Chiayi, Taiwan
+    date_start: 2021-11-01
+    date_end: 2024-05-31
+    summary: |2-
+      - Researched federated learning, trustworthy AI, and smart-city systems.
+      - Implemented CNNs, adversarial training, and distributed training (TensorFlow, PyTorch).
+      - Co-authored peer-reviewed papers (AI Review 2024, Future Internet 2023, ACM GoodIT 2023, IEEE ISC2 2022).
+      - Contributed to the NSTC–CCU Trustworthy AI Smart City project; coordinated with partners in India and Taiwan.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+# Skills (rendered as progress bars/cards)
 skills:
-  - name: Technical Skills
+  - name: NLP/GenAI
+    items:
+      - name: LLMs & Transformers
+        percent: 90
+        icon: academic-cap
+      - name: RAG & embeddings
+        percent: 85
+        icon: magnifying-glass
+      - name: Prompting & eval
+        percent: 80
+        icon: chart-bar
+  - name: Python stack
     items:
       - name: Python
-        description: ''
-        percent: 80
+        percent: 90
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: PyTorch / TensorFlow
+        percent: 85
+        icon: cube-transparent
+      - name: FastAPI
         percent: 80
-        icon: camera
+        icon: rocket-launch
+  - name: Cloud & Platform
+    items:
+      - name: Docker / Kubernetes
+        percent: 85
+        icon: squares-2x2
+      - name: Azure (OpenAI, Cognitive Search)
+        percent: 70
+        icon: cloud
+      - name: Linux / Git / CI
+        percent: 85
+        icon: wrench-screwdriver
 
+# Languages
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Hindi
+    percent: 95
+  - name: Nepali
+    percent: 95
+  - name: Mandarin (basic)
+    percent: 35
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# Avatar file — place a square image at assets/media/avatar.jpg (or .png)
+avatar:
+  filename: avatar.jpg
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I build end-to-end AI systems: LLM + RAG pipelines, APIs, and production deployments with Docker/K8s. Recently I’ve shipped a smart-contract staking platform (X Layer/BSC, 234K+ USDT staked), an LLM chatbot for crypto insights, and ML-driven trading bots. Previously at CCU, I worked on federated learning and trustworthy AI and co-authored papers in AI Review, Future Internet, ACM GoodIT, and IEEE ISC2.
