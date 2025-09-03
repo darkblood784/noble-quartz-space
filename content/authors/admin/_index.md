@@ -135,7 +135,7 @@ languages:
 
 # Avatar file — place a square image at assets/media/avatar.jpg (or .png)
 avatar:
-  filename: avatar.jpg
+  filename: avatar.jpeg
 ---
 
 ## About Me
