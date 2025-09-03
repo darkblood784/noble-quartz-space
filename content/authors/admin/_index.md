@@ -129,7 +129,7 @@ awards:
     summary: "Efficient CNN for air pollution estimation with public dataset."
 
 avatar:
-  filename: "avatar.jpg"
+  filename: "avatar.jpeg"
 ---
 
 ## About Me
