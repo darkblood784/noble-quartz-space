@@ -21,13 +21,22 @@ organizations:
     url: "https://whalestrategy.net/"
 
 profiles:
-  - icon: "at-symbol"
+  - icon: at-symbol
     url: "mailto:adarsh@csie.io"
     label: "E-mail Me"
-  - icon: "brands/github"
+  - icon: brands/x
+    url: "https://x.com/dnt_hap_my_name"
+  - icon: brands/instagram
+    url: "https://www.instagram.com/adarsh_rouniyar/"
+  - icon: brands/github
     url: "https://github.com/darkblood784"
-  - icon: "brands/linkedin"
+  - icon: brands/linkedin
     url: "https://www.linkedin.com/in/adarsh-rouniyar-876b1419b/"
+  - icon: academicons/google-scholar
+    url: "https://scholar.google.com/citations?user=67pvE0MAAAAJ&hl=en"
+  - icon: academicons/orcid
+    url: "https://orcid.org/0000-0002-0498-2326"
+
 
 interests:
   - "NLP & LLMs (RAG, embeddings, evaluation)"
