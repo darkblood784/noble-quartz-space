@@ -1,5 +1,4 @@
 ---
----
 # Display name
 title: Adarsh Rouniyar
 
@@ -7,49 +6,58 @@ title: Adarsh Rouniyar
 first_name: Adarsh
 last_name: Rouniyar
 
-# Status emoji (shows under avatar)
+# Pronouns (optional)
+pronouns: he/him
+
+# Status emoji
 status:
   icon: 🚀
 
-# Primary user of the site
+# Is this the primary user of the site?
 superuser: true
+
+# Highlight the author in author lists? (true/false)
 highlight_name: true
 
 # Role/position/tagline
-role: AI/ML Engineer — NLP · RAG · Smart Contracts
+role: CTO | AI/ML Engineer — NLP · RAG · Smart Contracts
 
-# Organizations/Affiliations
+# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Whale Strategy Co., Ltd.
-    url: https://whalestrategy.net
+    url: https://whalestrategy.net/
 
-# Social profiles (add/remove as you like)
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: mailto:adarsh@csie.io
-    label: E-mail
+    url: 'mailto:adarsh@csie.io'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/
+  - icon: brands/instagram
+    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/darkblood784
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/adarsh-rouniyar-876b1419b/
-  - icon: link
-    url: https://wstaking.net
-    label: WStaking
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
-# Interests shown on the profile
 interests:
   - NLP & LLMs (RAG, embeddings, evaluation)
   - Production AI (APIs, Docker/K8s)
   - Crypto systems (smart contracts, trading bots)
 
-# Education
 education:
   - area: M.Sc., Computer Science & Information Engineering
     institution: National Chung Cheng University (CCU), Taiwan
     date_start: 2021-09-01
     date_end: 2023-08-31
     summary: |
-      GPA 4.11/4.3. Thesis: *Performance-Based Model Aggregation in Federated Learning for Image-Based AQI Classification*.
+      GPA 4.11/4.3. Thesis: _Performance-Based Model Aggregation in Federated Learning for Image-Based AQI Classification_.
   - area: B.Tech., Computer Science & Engineering
     institution: Vel Tech University, India
     date_start: 2017-01-01
@@ -57,17 +65,16 @@ education:
     summary: |
       CGPA 8.3/10.
 
-# Work experience
 work:
   - position: Chief Technology Officer & AI Software Engineer
     company_name: Whale Strategy Co., Ltd.
-    company_url: https://whalestrategy.net
+    company_url: 'https://whalestrategy.net'
     company_logo: ''
-    location: Kaohsiung, Taiwan
     date_start: 2024-04-01
     date_end: ''
     summary: |2-
-      - Built the company site (WordPress) and internal tooling.
+      Responsibilities include:
+      - Built the company website and internal tooling.
       - Wrote and verified smart contracts on X Layer and BSC powering a staking platform (234K+ USDT staked).
       - Defined a lightweight AI services catalog; exposed LLM features as REST APIs (FastAPI), packaged with Docker.
       - Implemented RAG pipelines (embeddings, vector store, prompt orchestration).
@@ -75,54 +82,59 @@ work:
       - Set delivery practices (reviews, CI/CD) and mentored interns/junior engineers.
   - position: AI Research Assistant & Project Assistant
     company_name: National Chung Cheng University (CCU)
-    company_url: https://www.ccu.edu.tw
+    company_url: 'https://www.ccu.edu.tw'
     company_logo: ''
-    location: Minxiong & Chiayi, Taiwan
     date_start: 2021-11-01
     date_end: 2024-05-31
-    summary: |2-
+    summary: |
+      Responsibilities include:
       - Researched federated learning, trustworthy AI, and smart-city systems.
       - Implemented CNNs, adversarial training, and distributed training (TensorFlow, PyTorch).
       - Co-authored peer-reviewed papers (AI Review 2024, Future Internet 2023, ACM GoodIT 2023, IEEE ISC2 2022).
       - Contributed to the NSTC–CCU Trustworthy AI Smart City project; coordinated with partners in India and Taiwan.
 
-# Skills (rendered as progress bars/cards)
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: NLP/GenAI
+  - name: Technical Skills
     items:
-      - name: LLMs & Transformers
-        percent: 90
-        icon: academic-cap
-      - name: RAG & embeddings
-        percent: 85
-        icon: magnifying-glass
-      - name: Prompting & eval
-        percent: 80
-        icon: chart-bar
-  - name: Python stack
-    items:
-      - name: Python
+      - name: Python / FastAPI
+        description: 'APIs, packaging, testing'
         percent: 90
         icon: code-bracket
+      - name: NLP / LLMs / RAG
+        description: 'Transformers, embeddings, evaluation'
+        percent: 85
+        icon: academic-cap
       - name: PyTorch / TensorFlow
+        description: ''
         percent: 85
         icon: cube-transparent
-      - name: FastAPI
-        percent: 80
-        icon: rocket-launch
-  - name: Cloud & Platform
-    items:
       - name: Docker / Kubernetes
+        description: 'Deployment & ops'
         percent: 85
         icon: squares-2x2
       - name: Azure (OpenAI, Cognitive Search)
+        description: 'learning & building demos'
         percent: 70
         icon: cloud
-      - name: Linux / Git / CI
-        percent: 85
-        icon: wrench-screwdriver
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Reading
+        description: ''
+        percent: 80
+        icon: book-open
+      - name: Photography
+        description: ''
+        percent: 70
+        icon: camera
 
-# Languages
 languages:
   - name: English
     percent: 100
@@ -133,9 +145,33 @@ languages:
   - name: Mandarin (basic)
     percent: 35
 
+# Awards / Achievements (useful for highlights)
+awards:
+  - title: Survey published in Artificial Intelligence Review
+    url: https://doi.org/10.1007/s10462-024-10969-y
+    date: '2024-11-16'
+    awarder: Springer (AI Review)
+    icon: academic-cap
+    summary: |
+      Co-author of a survey on Federated Learning design and functional models.
+  - title: Federated Adversarial Training — Future Internet
+    url: https://doi.org/10.3390/fi15110371
+    date: '2023-11-20'
+    awarder: MDPI (Future Internet)
+    icon: academic-cap
+    summary: |
+      Paper on privacy/security strategies for smart-city applications.
+  - title: Eff-AQI — ACM GoodIT 2023
+    url: https://doi.org/10.1145/3582515.3609531
+    date: '2023-09-06'
+    awarder: ACM
+    icon: academic-cap
+    summary: |
+      Efficient CNN for air pollution estimation with public dataset.
+
 # Avatar file — place a square image at assets/media/avatar.jpg (or .png)
 avatar:
-  filename: avatar.jpeg
+  filename: avatar.jpg
 ---
 
 ## About Me
